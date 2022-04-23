@@ -53,6 +53,6 @@ class UserProfile(AbstractBaseUser,PermissionsMixin):
         """Retrieve short name of user"""
         return self.name
 
-    def __str__(delf):
+    def __str__(self):
         """Return string representation of our user"""
         return self.email
